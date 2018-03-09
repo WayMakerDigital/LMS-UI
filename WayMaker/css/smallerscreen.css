@@ -1,0 +1,22 @@
+@media screen and (max-width: 768px) {
+	#copy {
+		margin-left: 0;
+		margin-top: 0;
+	}
+	.navbar-brand {
+		position: static;
+		margin-top: 0;
+	}
+	.navigation {
+		position: static;
+	}
+}
+@media screen and (min-width: 770px) and (max-width: 1000px) {
+	.navigation, .navbar-brand {
+		position: static;
+	}
+}
+@media screen and (min-width: 1010px) and (max-width: 1250px) {
+	.navigation {
+		left: 40%;
+	}
