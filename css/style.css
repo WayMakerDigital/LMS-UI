@@ -78,12 +78,13 @@ footer .copy{ font-size:16px; padding-left:40px;}
 footer .social{padding-right:40px;}
  
 
+
 @media only screen and (max-width:800px){
 .container .banner-frame{background:url(../images/banner.png) no-repeat; width:100%; padding:0px; margin:0px; }
-.container .banner-frame .top-text{z-index:1; position:absolute; padding:120px 100px;}
-.container .banner-frame .top-text h1{font-family:"Open Sans"; font-size:48px;}
+.container .banner-frame .top-text{z-index:1; position:absolute; padding:100px 70px;}
+.container .banner-frame .top-text h1{font-family:"Open Sans"; font-size:38px;}
 .container .banner-frame .top-text p{font-size:16px; padding-top:10px;}
-.container .banner-frame .top-text .button{font-weight:bold; background:#fff; padding:20px 80px; border-radius:45px; font-size:16px; text-transform:uppercase; text-decoration:none;}
+.container .banner-frame .top-text .button{font-weight:bold; background:#fff; padding:20px 80px; border-radius:45px; font-size:14px; text-transform:uppercase; text-decoration:none;}
 
 
 .catalogue{width:100%; padding:10px 10px;}
@@ -137,16 +138,15 @@ footer .social{padding-right:0px; text-align:center;}
 footer .social a img{width:60px; height:60px;}
 }
 
-
 @media only screen and (max-width: 480px)
 {
 
  .container{margin-bottom:0px;} 
  .container .banner-frame{background:url(../images/banner.png) no-repeat; width:100%; padding:0px; margin:0px; }
-.container .banner-frame .top-text{z-index:1; position:absolute; padding:10px 10px; width:100%;}
+.container .banner-frame .top-text{z-index:1; position:absolute; padding:70px 10px; width:100%;}
 .container .banner-frame .top-text h1{font-family:"Open Sans"; font-size:30px;}
-.container .banner-frame .top-text p{font-size:14px; padding-top:10px;}
-.container .banner-frame .top-text .button{font-weight:bold; background:#fff; padding:20px 40px; border-radius:45px; font-size:16px; text-transform:uppercase; text-decoration:none;}
+.container .banner-frame .top-text p{font-size:14px; padding-top:5px;}
+.container .banner-frame .top-text .button{font-weight:bold; background:#fff; padding:20px 40px; border-radius:45px; font-size:14px; text-transform:uppercase; text-decoration:none;}
 
 
 .search-bar{z-index:2; position:relative; padding:40px 40px; width:80%; margin-left:10%; top:-120px; margin-bottom:0px;}
