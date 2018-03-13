@@ -1,1 +1,1 @@
-<?php header( 'Location: /privacy.html' ) ;  ?>
+<?php header( 'Location: /index.html' ) ;  ?>
