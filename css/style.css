@@ -5,7 +5,7 @@ header, section, article, span, footer {display:block;}
 p, h1, h2, h3, h4, h5, .button{color:#1D3557;}
 
 header{background:url(../images/bg-head.png) repeat-x; width:100%; }
-.signup{padding-left:60px;}
+.signup{font-weight:bold; background:#1D3557; padding:20px 100px; border-radius:45px; font-size:16px; text-transform:uppercase; text-decoration:none; color:#fff; margin-right:100px;  }
 header div a{font-family:'Bitter', serif; text-decoration:none; color:#1D3557;}
 
 .container .banner-frame{background:url(../images/banner.png) no-repeat; width:100%; padding:0px; margin:0px; }
@@ -80,6 +80,7 @@ footer .social{padding-right:40px;}
 
 
 @media only screen and (max-width:800px){
+.signup{font-weight:bold; background:#1D3557; padding:20px 60px; border-radius:35px; font-size:14px; text-transform:uppercase; text-decoration:none; color:#fff; margin-right:60px;  }
 .container .banner-frame{background:url(../images/banner.png) no-repeat; width:100%; padding:0px; margin:0px; }
 .container .banner-frame .top-text{z-index:1; position:absolute; padding:100px 70px;}
 .container .banner-frame .top-text h1{font-family:"Open Sans"; font-size:38px;}
@@ -140,7 +141,7 @@ footer .social a img{width:60px; height:60px;}
 
 @media only screen and (max-width: 480px)
 {
-
+.signup{font-weight:bold; background:#1D3557; padding:25px 40px; border-radius:25px; font-size:12px; text-transform:uppercase; text-decoration:none; color:#fff; margin-right:0px;  }
  .container{margin-bottom:0px;} 
  .container .banner-frame{background:url(../images/banner.png) no-repeat; width:100%; padding:0px; margin:0px; }
 .container .banner-frame .top-text{z-index:1; position:absolute; padding:70px 10px; width:100%;}
