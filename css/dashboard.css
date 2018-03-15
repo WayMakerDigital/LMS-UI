@@ -1,6 +1,11 @@
 @charset "utf-8";
 /* CSS Document */
-.w3-sidebar{background:#0C264A; padding:100px 30px; width:15%;}
+@media only screen and (min-width: 482px) and (max-width: 769px){
+	
+}
+.w3-sidebar{background:#0C264A; padding:80px 30px; width:15%;}
+.open{width:15%;}
+.large{width:100%; left:0px;}
 .w3-sidebar a{text-decoration:none; margin-bottom:15px;}
 .container{width:85%; padding-bottom:60px;}
 .container .w3-bar{padding-left:45px; padding-right:30px;}
