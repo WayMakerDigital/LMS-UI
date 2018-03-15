@@ -78,9 +78,8 @@ footer .copy{ font-size:16px; padding-left:40px;}
 footer .social{padding-right:40px;}
  
 
-
-@media only screen and (max-width:800px){
-.signup{font-weight:bold; background:#1D3557; padding:20px 60px; border-radius:35px; font-size:14px; text-transform:uppercase; text-decoration:none; color:#fff; margin-right:60px;  }
+@media only screen and (min-width: 482px) and (max-width: 769px){
+.signup{font-weight:bold; background:#1D3557; padding:20px 30px; border-radius:35px; font-size:12px; text-transform:uppercase; text-decoration:none; color:#fff; margin-right:30px;  }
 .container .banner-frame{background:url(../images/banner.png) no-repeat; width:100%; padding:0px; margin:0px; }
 .container .banner-frame .top-text{z-index:1; position:absolute; padding:100px 70px;}
 .container .banner-frame .top-text h1{font-family:"Open Sans"; font-size:38px;}
@@ -139,9 +138,9 @@ footer .social{padding-right:0px; text-align:center;}
 footer .social a img{width:60px; height:60px;}
 }
 
-@media only screen and (max-width: 480px)
+@media only screen and (max-width: 481px)
 {
-.signup{font-weight:bold; background:#1D3557; padding:25px 40px; border-radius:25px; font-size:12px; text-transform:uppercase; text-decoration:none; color:#fff; margin-right:0px;  }
+.signup{font-weight:bold; background:#1D3557; padding:25px 20px; border-radius:25px; font-size:12px; text-transform:uppercase; text-decoration:none; color:#fff; margin-right:0px;  }
  .container{margin-bottom:0px;} 
  .container .banner-frame{background:url(../images/banner.png) no-repeat; width:100%; padding:0px; margin:0px; }
 .container .banner-frame .top-text{z-index:1; position:absolute; padding:70px 10px; width:100%;}
