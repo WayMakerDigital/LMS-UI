@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* CSS Document */
+.w3-sidebar{background:#0C264A; padding:100px 30px; width:15%;}
+.w3-sidebar a{text-decoration:none; margin-bottom:15px;}
+.container{width:85%; padding-bottom:60px;}
+.container .w3-bar{padding-left:45px; padding-right:30px;}
+.container .w3-bar a{text-decoration:none; color:#457B9D; padding:10px; margin-right:20px;}
+.container .w3-bar .toggler{border:none; background:#fff;}
+.container .w3-bar input{padding:15px; border-radius:20px; background:#F1FAEE; border:thin #999; font-size:14px;}
+.w3-status-card a .w3-third{width:30%; margin-right:2.5%; margin-bottom:20px;}
+.w3-status-card{padding-left:5%; margin:50px 0px;}
+.w3-status-card a .w3-card-2 h1{font-weight:bold; font-size:64px;  color:#0C264A;}
+.w3-status-card a .w3-card-2 h3{text-transform:uppercase; color:#0C264A;}
+.w3-enrollments{padding-left:5%; margin:30px 0px;}
+.w3-enrollments h3{font-size:20px;}
+.w3-enrollments .w3-card-2{width:46.25%; margin-right:2.5%; margin-bottom:20px;}
+.w3-enrollments .w3-card-2 p{padding:0px 20px; color:#0C264A;}
+.w3-enrollments .w3-card-2 img{width:100%;}
+.w3-enrollments .w3-card-2 h3{padding-left:20px;}
+.w3-enrollments .w3-card-2 div{width:100%; padding-right:20px;}
+.w3-enrollments .w3-card-2 div a{width:50px; background:#0C264A; padding:8px 15px; color:#ffffff; text-decoration:none; border-radius:40px; font-size:12px;}
+.pagination{padding-left:5%; margin-bottom:60px;}
+.pagination .w3-bar .w3-button{width:40px; background:#0C264A; margin:0px; }
