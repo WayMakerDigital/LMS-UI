@@ -7,25 +7,11 @@
 <link href="library/w3.css" type="text/css" rel="stylesheet"/>
 <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
 <link href="css/dashboard.css" type="text/css" rel="stylesheet"/>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.15/vue.min.js"></script>
-    <script>
-    	var vm = new Vue({
-    			el: '#wrapper',
-    			data: {
-      				n:0
-    			},
-				methods: {
-					onClick: function(e){
-						console.log(vm.n);
-    				}
-			    }
-  			})
-    </script>
 </head>
 
 <body>
 	<section class="wrapper" id="wrapper">
-    		<div class="w3-sidebar w3-animate-left w3-bar-block w3-mobile">
+    		<div class="w3-sidebar w3-animate-left w3-bar-block w3-mobile" v-show="isOpen">
             	<a href="#" class="w3-bar-item w3-mobile w3-text-white">
                 	<b class="fa fa-4x fa-weight"></b> 
                 	<p>Dashboard</p></a>
@@ -44,10 +30,10 @@
             </div>
             
             
-            <div class="container w3-bar-block w3-white w3-right">
+            <div class="container w3-bar-block w3-animate-right w3-white w3-right" v-bind:style="{width: !isOpen ? '100%' : '85%' }">
             		<div class="w3-card w3-bar w3-padding-24">
                     	<div class="w3-half">
-                    		<button class="toggler" v-on="click: onClick"><img src="images/toggler.png" /> </button>
+                    		<button class="toggler" @click='toggle()'><img src="images/toggler.png" /> </button>
                            
                             <a href="#"> <img src="images/categories.png" /> Categories</a>
                             <input type="text" name="searchbar" placeholder="Search" class="w3-card" />
@@ -118,5 +104,20 @@
                     
             </div>
     </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.15/vue.min.js"></script>
+    <script>
+    	new Vue({
+ 		 el: '#wrapper',
+  			data: {
+    			isOpen: true
+  			},
+			methods:{
+				toggle: function(){
+            		this.isOpen = !this.isOpen
+       			}
+			}
+		});
+
+    </script>
 </body>
 </html>
