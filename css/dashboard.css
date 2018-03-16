@@ -11,7 +11,8 @@
 .container .w3-bar .toggler{border:none; background:#fff;}
 .container .w3-bar input{padding:12px 4px 12px 28px; border-radius:15px; background:url(../images/search.png) no-repeat #F1FAEE; border:thin #999; font-size:12px; width:220px;}
 .w3-status-card a .w3-third{width:30%; margin-right:2.5%; margin-bottom:20px;}
-.w3-status-card{padding-left:5%; margin:50px 0px;}
+.w3-status-card{padding-left:5%; margin:25px 0px;}
+.w3-status-card h3{color:#1D3557;}
 .w3-status-card a .w3-card-2 h1{font-weight:bold; font-size:64px;  color:#0C264A;}
 .w3-status-card a .w3-card-2 h3{text-transform:uppercase; color:#0C264A;}
 .w3-status-card .w3-card-2 .w3-half{padding:10px 20px 10px 20px;}
