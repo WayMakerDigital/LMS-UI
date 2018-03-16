@@ -9,7 +9,7 @@
 .container .w3-bar{padding-left:45px; padding-right:30px;}
 .container .w3-bar a{text-decoration:none; color:#457B9D; padding:10px; margin-right:20px;}
 .container .w3-bar .toggler{border:none; background:#fff;}
-.container .w3-bar input{padding:15px; border-radius:20px; background:#F1FAEE; border:thin #999; font-size:14px;}
+.container .w3-bar input{padding:12px 4px 12px 28px; border-radius:15px; background:url(../images/search.png) no-repeat #F1FAEE; border:thin #999; font-size:12px; width:220px;}
 .w3-status-card a .w3-third{width:30%; margin-right:2.5%; margin-bottom:20px;}
 .w3-status-card{padding-left:5%; margin:50px 0px;}
 .w3-status-card a .w3-card-2 h1{font-weight:bold; font-size:64px;  color:#0C264A;}
@@ -24,15 +24,21 @@
 .w3-enrollments .w3-card-2 div a{width:50px; background:#0C264A; padding:8px 15px; color:#ffffff; text-decoration:none; border-radius:40px; font-size:12px;}
 .pagination{padding-left:5%; margin-bottom:60px;}
 .pagination .w3-bar .w3-button{width:40px; background:#0C264A; margin:0px; }
+.form-container{width:90%; padding:40px; }
+.form-container form div div label{font-size:12px; margin-bottom:20px; display:block;}
+.form-container form div div label input,.form-container form div div label select {background:#F1FAEE; border-radius:20px; padding:10px 20px 10px 20px; border:none;}
+.form-container form .w3-row .w3-half{width:45%; margin-right:5%;}
+.form-container form .w3-row .w3-half .avatar{max-width:150px; max-height:150px;  margin-bottom:40px;}
+.form-container form .w3-row .w3-half .edit{background:#0C264A; padding:10px 45px; color:#ffffff; text-decoration:none; border-radius:40px; font-size:12px; border:none;}
 
 @media only screen and (min-width: 482px) and (max-width: 769px){
 	.w3-sidebar{background:#0C264A; padding:80px 2px; width:15%; overflow:hidden; font-size:10px;}
 	.container{width:85%; padding-bottom:60px;}
 	.container .w3-bar{padding-left:25px; padding-right:0px;}
-	.container .w3-bar a{text-decoration:none; color:#457B9D; padding:4px; }
+	.container .w3-bar a{text-decoration:none; color:#457B9D; padding:5px 0px 5px 0px ;}
+	.container .w3-bar a img{max-width:25px; margin:0px; padding:0px;}
 	.container .w3-bar .toggler{border:none; background:#fff;}
-	.container .w3-bar input{padding:10px; border-radius:15px; background:#F1FAEE; border:thin #999; font-size:12px;}
-	
+	.container .w3-bar input{padding:12px 4px 12px 28px; border-radius:15px; background:url(../images/search.png) no-repeat #F1FAEE; border:thin #999; font-size:12px; width:180px; margin:10px;}	
 	.w3-status-card a .w3-card-2 h3{text-transform:uppercase; color:#0C264A; font-size:12px; font-weight:bold;}
 }
 
@@ -42,9 +48,14 @@
 	.container .w3-bar .toggler{display:none;}
 	.container{ max-width:70%; }
 	.container .w3-bar{padding:4px;}
-	.container .w3-bar input{padding:10px; border-radius:12px; background:#F1FAEE; border:thin #999; font-size:12px;			margin:10px;}
+	.container .w3-bar input{padding:12px 4px 12px 28px; border-radius:15px; background:url(../images/search.png) no-repeat #F1FAEE; border:thin #999; font-size:12px; width:180px; margin:10px;}
 	.w3-status-card a .w3-third{width:30%; margin-right:2.5%; margin-bottom:20px;}
 	.w3-status-card{padding-left:5%; margin:50px 0px;}
 	.w3-status-card a .w3-card-2 h1{font-weight:bold; font-size:48px;  color:#0C264A;}
 	.w3-status-card a .w3-card-2 h3{text-transform:uppercase; color:#0C264A; font-size:16px;}
+	.form-container{width:98%; padding:1%; }
+	.form-container form div div label{font-size:12px; margin-bottom:10px; display:block;}
+	.form-container form div div label input,.form-container form div div label select {background:#F1FAEE; border-radius:12px; padding:10px 10px 10px 10px; border:none;}
+	
+	.form-container form .w3-row .w3-half .edit{background:#0C264A; padding:10px 25px; color:#ffffff; text-decoration:none; border-radius:40px; font-size:12px; border:none;}
 }
