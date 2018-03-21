@@ -59,7 +59,7 @@ header div a{font-family:'Bitter', serif; text-decoration:none; color:#1D3557;}
 .blog-container{padding:40px 120px;}
 .blog-container h3{color:#E84552; font-family:"Open Sans"; margin-bottom:45px; padding-left:15px;}
 .blog-container .w3-container .w3-card{overflow:hidden;}
-.blog-container .w3-container .w3-card img{max-width:237px; max-height:290px; height:100%;}
+.blog-container .w3-container .w3-card img{max-width:237px; max-height:283px; height:283px;}
 .blog-container .w3-container .w3-card{width:49%; margin-bottom:40px;}
 .blog-container .w3-container .w3-card .card-text{margin:0px; width:50%; padding-right:10px;}
 .blog-container .w3-container .w3-card .card-text .view-more{width:60px; background:#1D3557; padding:10px 25px; margin-top:20px; color:#ffffff; text-decoration:none; border-radius:40px;}
