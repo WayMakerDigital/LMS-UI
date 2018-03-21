@@ -45,7 +45,7 @@ header div a{font-family:'Bitter', serif; text-decoration:none; color:#1D3557;}
 .courses h3{color:#E84552; padding-left:15px; margin-bottom:30px; font-family:"Open Sans";}
 .courses .w3-container .w3-quarter a {text-decoration:none;}
 .courses .w3-container .w3-quarter a .w3-card{width:90%; margin:0 auto; overflow:hidden; margin-bottom:25px;}
-.courses .w3-container .w3-quarter a .w3-card img{width:100%;}
+.courses .w3-container .w3-quarter a .w3-card img{width:100%; max-width:243px; max-height:157px;}
 .courses .w3-container .w3-quarter a .w3-card p{font-size:24px; color:#457B9D; padding:20px 15px; font-family:"Open Sans";}
 
 
@@ -58,6 +58,8 @@ header div a{font-family:'Bitter', serif; text-decoration:none; color:#1D3557;}
 
 .blog-container{padding:40px 120px;}
 .blog-container h3{color:#E84552; font-family:"Open Sans"; margin-bottom:45px; padding-left:15px;}
+.blog-container .w3-container .w3-card{overflow:hidden;}
+.blog-container .w3-container .w3-card img{max-width:237px; max-height:290px; height:100%;}
 .blog-container .w3-container .w3-card{width:49%; margin-bottom:40px;}
 .blog-container .w3-container .w3-card .card-text{margin:0px; width:50%; padding-right:10px;}
 .blog-container .w3-container .w3-card .card-text .view-more{width:60px; background:#1D3557; padding:10px 25px; margin-top:20px; color:#ffffff; text-decoration:none; border-radius:40px;}
@@ -114,7 +116,7 @@ footer .social{padding-right:40px;}
 .courses h3{color:#E84552; padding-left:15px; margin-bottom:30px; font-family:"Open Sans";}
 .courses .w3-container .w3-quarter a {text-decoration:none;}
 .courses .w3-container .w3-quarter a .w3-card{width:90%; margin:0 auto; overflow:hidden; margin-bottom:25px;}
-.courses .w3-container .w3-quarter a .w3-card img{width:100%;}
+.courses .w3-container .w3-quarter a .w3-card img{width:100%; max-width:100%; max-height:157px;}
 .courses .w3-container .w3-quarter a .w3-card p{font-size:15px; color:#457B9D; padding:20px 15px; font-family:"Open Sans";}
 
 
@@ -125,7 +127,8 @@ footer .social{padding-right:40px;}
 
 
 .blog-container{padding:10px 10px;}
-.blog-container .w3-container .w3-card img{width:100%; margin-bottom:10px;}
+.blog-container .w3-container .w3-card{overflow:hidden;}
+.blog-container .w3-container .w3-card img{max-width:100%; width:100%; margin-bottom:10px;}
 .blog-container .w3-container .w3-card .card-text{margin:0px; width:100%; padding:0px 10px;}
 .blog-container .w3-container .w3-card .card-text .view-more{width:60px; background:#1D3557; padding:10px 25px; margin-top:20px; color:#ffffff; text-decoration:none; border-radius:40px;}
 .blog-container .w3-container .w3-card .card-text h3{width:100%; color:#257b9D; margin-bottom:0px; padding:0px;}
@@ -170,12 +173,15 @@ footer .social a img{width:60px; height:60px;}
 .reviews .w3-container .w3-card-4 .w3-section .person{padding:15px 0px 0px 10px;}
 
 .courses{width:100%; background:#ffffff; padding:10px 10px;}
+.courses .w3-container .w3-quarter a .w3-card{overflow:hidden;}
+.courses .w3-container .w3-quarter a .w3-card img{width:100%; max-width:100%; max-height:157px;}
 
 .our-benefits{width:100%; background:#2C5072; padding:20px 20px 20px 20px;}
 .our-benefits h3{font-size:38px; text-align:center; color:#fff; margin-bottom:20px; font-family:"Open Sans";}
 
 .blog-container{padding:10px 10px;}
-.blog-container .w3-container .w3-card img{width:100%; margin-bottom:10px;}
+.blog-container .w3-container .w3-card{overflow:hidden;}
+.blog-container .w3-container .w3-card img{max-width:100%; width:100%; margin-bottom:10px;}
 .blog-container .w3-container .w3-card .card-text{margin:0px; width:100%; padding:0px 10px;}
 .blog-container .w3-container .w3-card .card-text .view-more{width:60px; background:#1D3557; padding:10px 25px; margin-top:20px; color:#ffffff; text-decoration:none; border-radius:40px;}
 .blog-container .w3-container .w3-card .card-text h3{width:100%; color:#257b9D; margin-bottom:0px; padding:0px;}
