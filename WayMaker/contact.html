@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link href="font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="font-awesome-4.7.0/css/font-awesome-animation.min.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet"/>
+    <link rel="stylesheet" type="text/css" href="css/smallerscreen.css"> 
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+    <style>
+        @media (max-width: 768px) {
+            .w3-col.s12 {
+                width: 99.9999%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="w3-bar w3-red">
+            <a href="#" class="w3-bar-item w3-button brand-logo"><img src="images/catalogue.png" alt="catalogue icon"> Catalogue</a>
+            <div class="brand-navigation">
+                <a href="#" class="w3-bar-item w3-button w3-hide-small"><img src="images/home.png" id="home-icon"> Home</a>
+                <a href="#" class="w3-bar-item w3-button w3-hide-small"><img src="images/about.png" id="about-icon"> About Us</a></a>
+                <a href="#" class="w3-bar-item w3-button w3-hide-small"><img src="images/contact.png" id="contact-icon"> Contact Us</a>
+                <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="myFunction()">&#9776;</a>
+                <div id="signup-div">
+                    <a class="btn w3-hide-small" id="signup" style="margin-top: 4px;">SIGN UP</a>
+                </div>
+            </div>
+        </div>
+
+        <div id="navbar-small" class="w3-bar-block w3-red w3-hide w3-hide-large w3-hide-medium">
+            <a href="#" class="w3-bar-item w3-button"><img src="images/home.png" id="home-icon"> Home</a>
+            <a href="#" class="w3-bar-item w3-button"><img src="images/about.png" id="about-icon"> About Us</a>
+            <a href="#" class="w3-bar-item w3-button"><img src="images/contact.png" id="contact-icon"> Contact Us</a>
+            <a class="btn" id="signup" style="margin-top: 4px;">SIGN UP</a>
+        </div>
+    </header>
+
+    <div>
+        <img src="images/map.png" alt="map" style="width: 100%; height: auto;">
+    </div>
+    <div style="margin-top: 60px; margin-bottom: 100px;">
+        <div class="w3-row w3-container" style="box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25); padding-bottom: 40px;">
+            <div class="w3-col s12 m7 l7">
+                <div style="padding-left: 50px;">
+                    <p class="getintouch">Leave A Message</p>
+                    <div>
+                        <form>
+                            <p>
+                              <input class="w3-input" type="text" placeholder="Enter FullName">
+                            </p>
+                            <p>
+                              <input class="w3-input" type="text" placeholder="Enter Email Address" style="margin-top: 40px;">
+                            </p>
+                            <p>
+                              <textarea class="w3-input" placeholder="Message" style="margin-top: 80px;"></textarea>
+                            </p>
+                            <button class="w3-btn"><img src="images/send.png" id="send"></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="w3-col s12 m5 l5">
+                <div>
+                    <p class="getintouch">Get In Touch</p>
+                    <div>
+                        <p class="address">Address</p>
+                        <p class="waymaker">Waymakerlearning <br>William Udolo Street, Uk</p>
+                    </div>
+                    <div>
+                        <p class="address">Phone Number</p>
+                        <p class="waymaker">+44-670-789-89</p>
+                    </div>
+                     <div>
+                        <p class="address">Email Address</p>
+                        <p class="waymaker">hello@waymakerlearning.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer id="privacy-footer">
+        <div class="w3-row w3-container">
+            <div class="w3-col s12 m3 l3">
+                <p class="company">Company</p>
+                <div class="footer-components">
+                  <p><a href="">FAQ</a></p>
+                  <p><a href="">Contact Us</a></p>
+                  <p><a href="">Blog</a></p>
+                  <p><a href="">Careers</a></p>
+                  <p><a href="">About Us</a></p>
+                </div>
+            </div>
+            <div class="w3-col s12 m3 l3">
+                <p class="company">Featured Courses</p>
+                <div class="footer-components">
+                  <p><a href="">Flights to New Zealand</a></p>
+                  <p><a href="">Flights to India</a></p>
+                  <p><a href="">Flights to Australia</a></p>
+                  <p><a href="">Flights to Canada</a></p>
+                  <p><a href="">Flights to United</a></p>
+                </div>
+            </div>
+            <div class="w3-col s12 m3 l3">
+                <p class="company">Resources</p>
+                <div class="footer-components">
+                  <p><a href="">Flights to New Zealand</a></p>
+                  <p><a href="">Flights to India</a></p>
+                  <p><a href="">Flights to Australia</a></p>
+                  <p><a href="">Flights to Canada</a></p>
+                  <p><a href="">Flights to United</a></p>
+                </div>
+            </div>
+            <div class="w3-col s12 m3 l3">
+                <p class="company">Support</p>
+                <div class="footer-components">
+                  <p><a href="">Flights to New Zealand</a></p>
+                  <p><a href="">Flights to India</a></p>
+                  <p><a href="">Flights to Australia</a></p>
+                  <p><a href="">Flights to Canada</a></p>
+                  <p><a href="">Flights to United</a></p>
+                </div>
+            </div>
+        </div>
+        <div id="copyright-div">
+            <div class="w3-row">
+                <div class="w3-col s12 m8 l9">
+                    <p id="copy">copyright &copy 2018 Waymakerlearning.com</p>
+                </div>
+                <div class="w3-col s12 m4 l3">
+                    <div id="footer-icons">
+                        <a href=""><img src="images/facebook.png" class="img-responsive" alt="facebook"></a>
+                        <a href=""><img src="images/twitter.png" class="img-responsive" alt="twitter"></a>
+                        <a href=""><img src="images/linkedin.png" class="img-responsive" alt="linkedin"></a>
+                        <a href=""><img src="images/googleplus.png" class="img-responsive" alt="googleplus"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("navbar-small");
+            if (x.className.indexOf("w3-show") == -1) {
+                x.className += " w3-show";
+            } else { 
+                x.className = x.className.replace(" w3-show", "");
+            }
+        }
+    </script>
+</body>
+</html>

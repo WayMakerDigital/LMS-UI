@@ -5,65 +5,77 @@
 	  <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
-    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link href="font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" />
     <link href="font-awesome-4.7.0/css/font-awesome-animation.min.css" rel="stylesheet" />
-    <link href="css/style.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" type="text/css" href="css/smallerscreen.css"> 
     <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
     <style>
-      nav {
-        background: #1D3557;
-        height: 70px;
-        border-radius: 0!important;
+      .w3-red {
+        height: 90px;
       }
-      .navigation, .navbar-right {
-        margin-top: 6px;
-        margin-right: 60px;
-      }
-      @media screen and (max-width: 768px) {
-        nav {
-          height: auto!important;
+      @media screen and (min-width: 770px) and (max-width: 1000px) {
+        .brand-logo {
+          position: static;
+        }
+        .brand-navigation {
+          position: static!important;
+        }
+        .w3-input {
+          width: 350px;
+        }
+        #signup-div {
+          float: left;
+          margin-left: 0;
         }
       }
     </style>
 </head>
 <body>
-    <nav class="navbar">
-        <div class="container">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              <a class="navbar-brand" href="#"><img src="images/catalogue.png" alt="catalogue icon"> Catalogue</a>
-            </div>
-            <div class="collapse navbar-collapse" id="myNavbar">
-                <ul class="nav navbar-nav navigation">
-                  <li><a href="#"><img src="images/home.png" id="home-icon"> Home</a></li>
-                  <li><a href="#"><img src="images/about.png" id="about-icon"> About Us</a></li>
-                  <li><a href="#"><img src="images/contact.png" id="contact-icon"> Contact Us</a></li>
-                </ul>
-                <ul class="nav navbar-nav navbar-right">
-                  <a class="btn btn-info" id="signup">SIGN UP</a>
-                </ul>
+    <header>
+        <div class="w3-bar w3-red">
+            <a href="#" class="w3-bar-item w3-button brand-logo"><img src="images/catalogue.png" alt="catalogue icon"> Catalogue</a>
+            <div class="brand-navigation">
+                <a href="#" class="w3-bar-item w3-button w3-hide-small"><img src="images/home.png" id="home-icon"> Home</a>
+                <a href="#" class="w3-bar-item w3-button w3-hide-small"><img src="images/about.png" id="about-icon"> About Us</a></a>
+                <a href="#" class="w3-bar-item w3-button w3-hide-small"><img src="images/contact.png" id="contact-icon"> Contact Us</a>
+                <div id="signup-div">
+                    <a class="btn w3-hide-small" id="signup" style="margin-top: 4px;">SIGN UP</a>
+                </div>
+                <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="myFunction()">&#9776;</a>
             </div>
         </div>
-    </nav>
-    <div style="margin-top: -20px;">
-      <img src="images/privacy.png" class="img-responsive" id="privacy">
-    </div>
-    <div class="container" style="padding-bottom: 40px;">
-      <ul class="nav nav-tabs row">
-        <li class="active col-md-3 col-sm-3 col-xs-12"><a data-toggle="tab" href="#privacypolicy">Privacy Policy</a></li>
-        <li class="col-md-3 col-sm-3 col-xs-12"><a data-toggle="tab" href="#termsofuse">Terms of Use</a></li>
-        <li class="col-md-3 col-sm-3 col-xs-12"><a data-toggle="tab" href="#terms">Terms and Services</a></li>
-        <li class="col-md-3 col-sm-3 col-xs-12"><a data-toggle="tab" href="#cookie">Cookie Policy</a></li>
-      </ul>
 
-      <div class="tab-content" id="policy-tab">
-        <div id="privacypolicy" class="tab-pane fade in active">
+        <div id="navbar-small" class="w3-bar-block w3-red w3-hide w3-hide-large w3-hide-medium">
+            <a href="#" class="w3-bar-item w3-button"><img src="images/home.png" id="home-icon"> Home</a>
+            <a href="#" class="w3-bar-item w3-button"><img src="images/about.png" id="about-icon"> About Us</a>
+            <a href="#" class="w3-bar-item w3-button"><img src="images/contact.png" id="contact-icon"> Contact Us</a>
+            <a class="btn" id="signup" style="margin-top: 4px;">SIGN UP</a>
+        </div>
+    </header>
+
+    <div style="margin-top: -20px;">
+      <img src="images/privacy.png" id="privacy-image">
+    </div>
+
+    <div style="padding-bottom: 40px;">
+        <div class="w3-row" id="privacy-tab">
+          <a href="#" onclick="openTab(event, 'privacy');"><div class="w3-col s12 w3 l3 tablink w3-hover-light-grey w3-border-red">Privacy Policy</div>
+          </a>
+          <a href="#" onclick="openTab(event, 'termsofuse');">
+            <div class="w3-col s12 w3 l3 tablink w3-hover-light-grey">Terms of Use</div>
+          </a>
+          <a href="#" onclick="openTab(event, 'terms');">
+            <div class="w3-col s12 w3 l3 tablink w3-hover-light-grey">Terms and Sevices</div>
+          </a>
+          <a href="#" onclick="openTab(event, 'cookie');">
+            <div class="w3-col s12 w3 l3 tablink w3-hover-light-grey">Cookie Policy</div>
+          </a>
+        </div>
+
+
+        <div id="privacy" class="w3-container city" style="display: block;">
           <div>
             <p class="privacy-text text-center">Privacy Policy</p>
             <div class="details">
@@ -80,9 +92,10 @@
             </div>
           </div>
         </div>
-        <div id="termsofuse" class="tab-pane fade">
+
+        <div id="termsofuse" class="w3-container city" style="display: none;">
           <div>
-            <p class="privacy-text text-center">Terms of Use</p>
+            <p class="privacy-text text-center"> Terms of Use</p>
             <div class="details">
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla.</p>
               <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero. Sed dignissim lacinia nunc. Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. Maecenas mattis. Sed convallis tristique sem. Proin ut ligula vel nunc egestas porttitor. Morbi lectus risus, iaculis vel, suscipit quis, luctus non, massa. Fusce ac turpis quis ligula lacinia aliquet. Mauris ipsum.</p>
@@ -97,7 +110,8 @@
             </div>
           </div>
         </div>
-        <div id="terms" class="tab-pane fade">
+
+        <div id="terms" class="w3-container city" style="display: none;">
           <div>
             <p class="privacy-text text-center">Terms and Services</p>
             <div class="details">
@@ -114,7 +128,8 @@
             </div>
           </div>
         </div>
-        <div id="cookie" class="tab-pane fade">
+
+        <div id="cookie" class="w3-container city" style="display: none;">
           <div>
             <p class="privacy-text text-center">Cookie Policy</p>
             <div class="details">
@@ -131,72 +146,94 @@
             </div>
           </div>
         </div>
-      </div>
     </div>
+
+
     <footer id="privacy-footer">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-3 col-sm-3 col-xs-12">
-            <p class="company">Company</p>
-            <div class="footer-components">
-              <p><a href="">FAQ</a></p>
-              <p><a href="">Contact Us</a></p>
-              <p><a href="">Blog</a></p>
-              <p><a href="">Careers</a></p>
-              <p><a href="">About Us</a></p>
+        <div class="w3-row w3-container">
+            <div class="w3-col s12 m3 l3">
+                <p class="company">Company</p>
+                <div class="footer-components">
+                  <p><a href="">FAQ</a></p>
+                  <p><a href="">Contact Us</a></p>
+                  <p><a href="">Blog</a></p>
+                  <p><a href="">Careers</a></p>
+                  <p><a href="">About Us</a></p>
+                </div>
             </div>
-          </div>
-          <div class="col-md-3 col-sm-3 col-xs-12">
-            <p class="company">Featured Courses</p>
-            <div class="footer-components">
-              <p><a href="">Flights to New Zealand</a></p>
-              <p><a href="">Flights to India</a></p>
-              <p><a href="">Flights to Australia</a></p>
-              <p><a href="">Flights to Canada</a></p>
-              <p><a href="">Flights to United</a></p>
+            <div class="w3-col s12 m3 l3">
+                <p class="company">Featured Courses</p>
+                <div class="footer-components">
+                  <p><a href="">Flights to New Zealand</a></p>
+                  <p><a href="">Flights to India</a></p>
+                  <p><a href="">Flights to Australia</a></p>
+                  <p><a href="">Flights to Canada</a></p>
+                  <p><a href="">Flights to United</a></p>
+                </div>
             </div>
-          </div>
-          <div class="col-md-3 col-sm-3 col-xs-12">
-            <p class="company">Resources</p>
-            <div class="footer-components">
-              <p><a href="">Flights to New Zealand</a></p>
-              <p><a href="">Flights to India</a></p>
-              <p><a href="">Flights to Australia</a></p>
-              <p><a href="">Flights to Canada</a></p>
-              <p><a href="">Flights to United</a></p>
+            <div class="w3-col s12 m3 l3">
+                <p class="company">Resources</p>
+                <div class="footer-components">
+                  <p><a href="">Flights to New Zealand</a></p>
+                  <p><a href="">Flights to India</a></p>
+                  <p><a href="">Flights to Australia</a></p>
+                  <p><a href="">Flights to Canada</a></p>
+                  <p><a href="">Flights to United</a></p>
+                </div>
             </div>
-          </div>
-          <div class="col-md-3 col-sm-3 col-xs-12">
-            <p class="company">Support</p>
-            <div class="footer-components">
-              <p><a href="">Flights to New Zealand</a></p>
-              <p><a href="">Flights to India</a></p>
-              <p><a href="">Flights to Australia</a></p>
-              <p><a href="">Flights to Canada</a></p>
-              <p><a href="">Flights to United</a></p>
+            <div class="w3-col s12 m3 l3">
+                <p class="company">Support</p>
+                <div class="footer-components">
+                  <p><a href="">Flights to New Zealand</a></p>
+                  <p><a href="">Flights to India</a></p>
+                  <p><a href="">Flights to Australia</a></p>
+                  <p><a href="">Flights to Canada</a></p>
+                  <p><a href="">Flights to United</a></p>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
-      <div id="copyright-div">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-md-9 col-sm-8 col-xs-12">
-              <p id="copy">copyright &copy 2018 Waymakerlearning.com</p>
+        <div id="copyright-div">
+            <div class="w3-row">
+                <div class="w3-col s12 m8 l9">
+                    <p id="copy">copyright &copy 2018 Waymakerlearning.com</p>
+                </div>
+                <div class="w3-col s12 m4 l3">
+                    <div id="footer-icons">
+                        <a href=""><img src="images/facebook.png" class="img-responsive" alt="facebook"></a>
+                        <a href=""><img src="images/twitter.png" class="img-responsive" alt="twitter"></a>
+                        <a href=""><img src="images/linkedin.png" class="img-responsive" alt="linkedin"></a>
+                        <a href=""><img src="images/googleplus.png" class="img-responsive" alt="googleplus"></a>
+                    </div>
+                </div>
             </div>
-            <div class="col-md-3 col-sm-4 col-xs-12">
-              <div id="footer-icons">
-                <a href=""><img src="images/facebook.png" class="img-responsive" alt="facebook"></a>
-                <a href=""><img src="images/twitter.png" class="img-responsive" alt="twitter"></a>
-                <a href=""><img src="images/linkedin.png" class="img-responsive" alt="linkedin"></a>
-                <a href=""><img src="images/googleplus.png" class="img-responsive" alt="googleplus"></a>
-              </div>
-            </div>
-          </div>
         </div>
-      </div>
     </footer>
     <script src="js/jquery.min.js" type="text/javascript"></script>
     <script src="js/bootstrap.min.js" type="text/javascript"></script>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("navbar-small");
+            if (x.className.indexOf("w3-show") == -1) {
+                x.className += " w3-show";
+            } else { 
+                x.className = x.className.replace(" w3-show", "");
+            }
+        }
+    </script>
+    <script>
+        function openTab(evt, tabName) {
+          var i, x, tablinks;
+          x = document.getElementsByClassName("city");
+          for (i = 0; i < x.length; i++) {
+             x[i].style.display = "none";
+          }
+          tablinks = document.getElementsByClassName("tablink");
+          for (i = 0; i < x.length; i++) {
+             tablinks[i].className = tablinks[i].className.replace(" w3-border-red", "");
+          }
+          document.getElementById(tabName).style.display = "block";
+          evt.currentTarget.firstElementChild.className += " w3-border-red";
+        }
+    </script>
 </body>
 </html>

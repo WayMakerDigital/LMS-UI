@@ -1,39 +1,45 @@
 body {
 	font-family: 'PT Sans', sans-serif;
 }
-.navbar>.container .navbar-brand, 
-.navbar>.container-fluid .navbar-brand,
-.navbar-nav>li>a {
-	font-size: 20px;
-	color: #FFFFFF;
+.w3-red {
+	background: #1D3557!important;
+    height: 70px;
+    border-radius: 0!important;
+    font-size: 20px;
+    padding-top: 8px;
 }
-.navbar-brand {
-	margin-top: 6px;
+.brand-logo {
 	position: absolute;
     left: 25%;
 }
-.navbar-nav>li>a:hover {
-	color: #1D3557;
-	background: #fff;
-}
-.navigation {
+.brand-navigation {
 	position: absolute;
-	left: 47%;
+    left: 47%;
 }
-.navbar-toggle {
-	background-color: #fff;
+.btn {
+	display: inline-block;
+    margin-bottom: 0;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    border-radius: 4px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
-.navbar-toggle .icon-bar {
-	background-color: #1D3557;
-}
-.navbar-brand>img {
-    display: inline;
-}
-#home-icon {
-	margin-top: -5px;
-}
-#contact-icon {
-	margin-top: -3px;
+#signup-div {
+	float: right; 
+	margin-left: 60px;
 }
 #signup {
 	background: #FFFFFF;
@@ -52,53 +58,63 @@ body {
 	background-color: #1D3557;
 	color: #fff;
 }
-#privacy {
-	border-bottom: 1px solid #E0E0E0;
+/*contact*/
+
+.getintouch {
+	font-size: 36px;
+	color: #E63946;
 }
-.nav-tabs>li>a {
+.address {
 	font-size: 20px;
-    color: #457B9D;
-    padding: 20px 0 20px 0;
-    text-align: center;
+	color: #1D3557;
 }
-.nav-tabs>li.active>a, 
-.nav-tabs>li.active>a:hover, 
-.nav-tabs>li.active>a:focus {
-    color: #457B9D;
-    border: transparent;
-    border-bottom: 3px solid #1D3557;
+.waymaker {
+	font-size: 18px;
+	color: #4F4F4F;
+	margin-top: -15px;
 }
-#policy-tab {
-	padding-top: 60px;
-	padding-bottom: 30px;
+.w3-input {
+	width: 500px;
 }
-.privacy-text {
-	font-size: 48px;
-	color: #3386B2;
+.w3-btn {
+	position: absolute;
+    left: 46%;
+    margin-top: -48px;
 }
-.details {
-	margin-top: 30px;
-	font-size: 24px;
-	text-align: justify;
-	color: #222222;
+.w3-btn:hover, .w3-btn:focus {
+	background: transparent;
+	background-color: transparent;
 }
-#privacy-footer {
-	background: #FCFCFC;
-	padding-top: 40px;
+#send {
+	width: 100%;
 }
-.company {
-	font-size: 24px;
-	color: #333333;
+
+/* footer */
+@media (min-width: 1200px) {
+	.w3-container {
+    	width: 1170px;
+	}
 }
-.footer-components {
-	margin-top: 30px;
-	margin-bottom: 40px;
+.w3-container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 .footer-components>p>a {
 	line-height: 16px;
 	font-size: 20px;
 	color: rgba(79, 79, 79, 0.91);
+	text-decoration: none;
 }
+.footer-components>p>a:hover {
+	text-decoration: underline;
+}
+.footer-components {
+	margin-top: 30px;
+	margin-bottom: 40px;
+}
+
 #copyright-div {
 	background: #4F4F4F;
 	padding: 30px 0;
@@ -114,4 +130,56 @@ body {
 }
 #footer-icons>a>img {
 	display: inline;
+}
+#privacy-tab {
+	border-bottom: 1px solid #E0E0E0;
+}
+#home-icon {
+	margin-top: -5px;
+}
+#contact-icon {
+	margin-top: -3px;
+}
+/* tab */
+#privacy-image {
+	width: 100%;
+}
+.tablink {
+	font-size: 20px;
+    color: #457B9D;
+    padding: 25px 0 25px 0;
+    text-align: center;
+}
+.tablink:hover {
+	color: #457B9D;
+    border: transparent;
+    border-bottom: 3px solid #1D3557;
+}
+.w3-border-red {
+	border-bottom: 3px solid #1D3557!important;
+}
+#policy-tab {
+	padding-top: 60px;
+	padding-bottom: 30px;
+}
+.privacy-text {
+	font-size: 48px;
+	color: #3386B2;
+	padding-top: 80px;
+	text-align: center;
+}
+.details {
+	margin-top: 30px;
+	font-size: 24px;
+	text-align: justify;
+	color: #222222;
+	padding-bottom: 35px;
+}
+#privacy-footer {
+	background: #FCFCFC;
+	padding-top: 40px;
+}
+.company {
+	font-size: 24px;
+	color: #333333;
 }
