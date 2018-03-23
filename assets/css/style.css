@@ -1,0 +1,185 @@
+body {
+	font-family: 'PT Sans', sans-serif;
+}
+.w3-red {
+	background: #1D3557!important;
+    height: 70px;
+    border-radius: 0!important;
+    font-size: 20px;
+    padding-top: 8px;
+}
+.brand-logo {
+	position: absolute;
+    left: 25%;
+}
+.brand-navigation {
+	position: absolute;
+    left: 47%;
+}
+.btn {
+	display: inline-block;
+    margin-bottom: 0;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    border-radius: 4px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+#signup-div {
+	float: right; 
+	margin-left: 60px;
+}
+#signup {
+	background: #FFFFFF;
+	box-shadow: 0px 1px 7px rgba(0, 0, 0, 0.25);
+	border-radius: 50px;
+	font-size: 18px;
+	color: #1D3557;
+	border-color: #1D3557;
+	width: 145px;
+    height: 40px;
+    margin-top: 7px;
+    padding-top: 7px;
+    margin-right: -60px;
+}
+#signup:hover {
+	background-color: #1D3557;
+	color: #fff;
+}
+/*contact*/
+
+.getintouch {
+	font-size: 36px;
+	color: #E63946;
+}
+.address {
+	font-size: 20px;
+	color: #1D3557;
+}
+.waymaker {
+	font-size: 18px;
+	color: #4F4F4F;
+	margin-top: -15px;
+}
+.w3-input {
+	width: 500px;
+}
+.w3-btn {
+	position: absolute;
+    left: 46%;
+    margin-top: -48px;
+}
+.w3-btn:hover, .w3-btn:focus {
+	background: transparent;
+	background-color: transparent;
+}
+#send {
+	width: 100%;
+}
+
+/* footer */
+@media (min-width: 1200px) {
+	.w3-container {
+    	width: 1170px;
+	}
+}
+.w3-container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.footer-components>p>a {
+	line-height: 16px;
+	font-size: 20px;
+	color: rgba(79, 79, 79, 0.91);
+	text-decoration: none;
+}
+.footer-components>p>a:hover {
+	text-decoration: underline;
+}
+.footer-components {
+	margin-top: 30px;
+	margin-bottom: 40px;
+}
+
+#copyright-div {
+	background: #4F4F4F;
+	padding: 30px 0;
+}
+#copy {
+	font-size: 20px;
+	color: #FFFFFF;
+	margin-left: 50px;
+	margin-top: 10px;
+}
+#footer-icons>a {
+	margin-right: 10px;
+}
+#footer-icons>a>img {
+	display: inline;
+}
+#privacy-tab {
+	border-bottom: 1px solid #E0E0E0;
+}
+#home-icon {
+	margin-top: -5px;
+}
+#contact-icon {
+	margin-top: -3px;
+}
+/* tab */
+#privacy-image {
+	width: 100%;
+}
+.tablink {
+	font-size: 20px;
+    color: #457B9D;
+    padding: 25px 0 25px 0;
+    text-align: center;
+}
+.tablink:hover {
+	color: #457B9D;
+    border: transparent;
+    border-bottom: 3px solid #1D3557;
+}
+.w3-border-red {
+	border-bottom: 3px solid #1D3557!important;
+}
+#policy-tab {
+	padding-top: 60px;
+	padding-bottom: 30px;
+}
+.privacy-text {
+	font-size: 48px;
+	color: #3386B2;
+	padding-top: 80px;
+	text-align: center;
+}
+.details {
+	margin-top: 30px;
+	font-size: 24px;
+	text-align: justify;
+	color: #222222;
+	padding-bottom: 35px;
+}
+#privacy-footer {
+	background: #FCFCFC;
+	padding-top: 40px;
+}
+.company {
+	font-size: 24px;
+	color: #333333;
+}

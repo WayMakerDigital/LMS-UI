@@ -1,0 +1,48 @@
+@media screen and (max-width: 768px) {
+	.w3-btn {
+		left: 65%;
+	}
+}
+@media screen and (max-width: 768px) {
+	#copy {
+		margin-left: 0;
+		margin-top: 0;
+	}
+	.brand-logo {
+		position: static;
+	}
+	.w3-red {
+		height: auto;
+	}
+	#navbar-small {
+		height: auto;
+	    padding-bottom: 40px;
+	    margin-top: -40px;
+	}
+	.w3-input {
+        width: 100%;
+	}
+	.w3-btn {
+		left: 55%;
+	}
+}
+@media screen and (min-width: 570px) and (max-width: 1000px) {
+	.brand-logo {
+		position: static;
+	}
+	.brand-navigation {
+    	position: static!important;
+	}
+	#signup-div {
+    	float: left;
+    	margin-left: 0;
+	}
+	.w3-input {
+		width: 350px;
+	}
+}
+@media screen and (min-width: 1010px) and (max-width: 1350px) {
+	#signup-div {
+       margin-left: 0;
+	}
+}

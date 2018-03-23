@@ -1,0 +1,110 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Waymaker LMS Dashboard</title>
+<link href="library/w3.css" type="text/css" rel="stylesheet"/>
+<link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
+<link href="css/dashboard.css" type="text/css" rel="stylesheet"/>
+</head>
+
+<body>
+	<section class="wrapper" id="wrapper">
+    		<div class="w3-sidebar w3-animate-left w3-bar-block w3-mobile" v-show="isOpen">
+            	<a href="dashboard.html" class="w3-bar-item w3-mobile w3-text-white w3-center">
+                	<b class="fa fa-3x fa-weight"></b> 
+                	<p class="w3-center">Dashboard</p></a>
+                <a href="courses.html" class="w3-bar-item w3-mobile w3-text-white w3-center"> 
+                	<b class="fa fa-3x  fa-desktop"></b>
+                    <p class="w3-center">My Courses</p>
+                </a>
+                <a href="profile.html" class="w3-bar-item w3-mobile w3-text-white w3-center">
+                	<b class="fa fa-3x fa-user-circle"></b> 
+                    <p class="w3-center">My Profile</p>
+                </a>
+                <a href="settings.html" class="w3-bar-item w3-mobile w3-text-white w3-center"> 
+                	<b class="fa fa-3x fa-cog"></b>
+                	<p class="w3-center">Settings</p>
+                </a>
+            </div>
+            
+            
+            <div class="w3-mobile container w3-bar-block w3-animate-right w3-white w3-right" v-bind:style="{width: !isOpen ? '100%' : '85%' }">
+            		<div class="w3-card w3-bar w3-padding-24">
+                    	<div class="w3-threequarter w3-mobile">
+                    		<button class="toggler" @click='toggle()'><img src="images/toggler.png" /> </button>
+                           
+                            <a href="#"> <img src="images/categories.png" /> Categories</a>
+                            <input type="text" name="searchbar" placeholder="Search" class="w3-card" />
+                        </div>
+                        <div class="w3-quarter w3-mobile w3-right-align">
+                        		<a href="#"><img src="images/notifications.png" /></a>
+                				<a href="#"><img src="images/user.png" /><img src="images/Polygon.png" /></a>
+                	    </div>  
+                    </div>
+                   	
+                     <div class="w3-container w3-status-card">
+                    		<a href="#"><div class="w3-third w3-card-2 w3-hover-shadow w3-mobile"><h1 class="w3-center">5</h1> <h3 class="w3-center">Courses Completed</h3></div></a>
+                            <a href="#"><div class="w3-third w3-card-2  w3-hover-shadow w3-mobile"><h1 class="w3-center">5</h1> <h3 class="w3-center">Enrolled Courses</h3></div></a>
+                            <a href="#"><div class="w3-third w3-card-2  w3-hover-shadow w3-mobile"><h1 class="w3-center">5</h1> <h3 class="w3-center">Certificates Obtained</h3></div></a>
+                    </div>
+                    
+                    <div class="w3-container w3-enrollments">
+                    		<h3>Current Enrollments</h3>
+                            <div class="w3-half w3-card-2 w3-mobile">
+                            	<img src="images/image 2.png" />
+                                <h3 class="w3-border-left w3-leftbar w3-border-red w3-text-red">Advanced Arts</h3>
+                                <p>Connections are established by creating instances of the PDO base class, it doesn't matter which driver you want to use; you always use the PDO class name
+                                </p>
+                                <div class="w3-border-top w3-padding-24 w3-right-align"><a href="#" class="w3-hover-blue-grey">View Course</a></div>
+                            </div>
+                            <div class="w3-half w3-card-2 w3-mobile">
+                            	<img src="images/image 3.png" />
+                                	<h3 class="w3-border-left w3-leftbar w3-border-red w3-text-red">Arts as a Hubby</h3>
+                                     <p>
+                                Connections are established by creating instances of the PDO base class, it doesn't matter which driver you want to use; you always use the PDO class name
+                                </p>
+                                <div class="w3-border-top w3-padding-24 w3-right-align"><a href="#" class="w3-hover-blue-grey">View Course</a></div>
+                            </div>
+                    </div>
+                    
+                    
+                    <!--Pagination -->
+                    <div class="pagination">
+                    	<div class="w3-bar">
+                        	<a href="#" class="w3-button w3-text-white w3-border-left  w3-border-blue">1</a>
+                            <a href="#" class="w3-button w3-text-white">2</a>
+                            <a href="#" class="w3-button w3-text-white">3</a>
+                        </div>
+                    </div>
+                    <!--Pagination ends here -->
+                    
+                    
+                    <div class="w3-container w3-enrollments">
+                    		<h3>Recommendations</h3>
+                            <div class="w3-half w3-card-2 w3-mobile">
+                            	<img src="images/image 2.png" />
+                                <h3 class="w3-border-left w3-leftbar w3-border-red w3-text-red">Advanced Arts</h3>
+                                <p>
+                                Connections are established by creating instances of the PDO base class, it doesn't matter which driver you want to use; you always use the PDO class name
+                                </p>
+                                <div class="w3-border-top w3-padding-24 w3-right-align"><a href="#" class="w3-hover-blue-grey">View Course</a></div>
+                            </div>
+                            <div class="w3-half w3-card-2 w3-mobile">
+                            	<img src="images/image 3.png" />
+                                <h3 class="w3-border-left w3-leftbar w3-border-red w3-text-red">Arts as a Hubby</h3>
+                                <p>
+                                Connections are established by creating instances of the PDO base class, it doesn't matter which driver you want to use; you always use the PDO class name
+                                </p>
+                                <div class="w3-border-top w3-padding-24 w3-right-align"><a href="#" class="w3-hover-blue-grey">View Course</a></div>
+                            </div>
+                    </div>
+                    
+                    
+            </div>
+    </section>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.15/vue.min.js"></script>
+    <script src="js/dashboard.js"></script>
+</body>
+</html>

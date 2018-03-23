@@ -1,0 +1,291 @@
+
+.nav{
+	font-family: PT Sans;
+   line-height: 50px;
+   font-size: 18px;
+	}
+
+.catalogue{
+	margin-left: 20%;
+	
+}
+
+
+.home{
+	margin-left: 25%;
+
+}
+
+.about{
+	margin-left: 4%;
+}
+
+.contact{
+	margin-left:4%;
+
+	}
+
+.bar{
+	height: 15px;
+	width: 15px;
+}
+
+
+.signup{
+  float: right;
+  position: absolute;
+  margin-left: 7%;
+width: 110px;
+height:34px;
+top: 14px;
+font-family: PT Sans;
+font-style: normal;
+font-weight: bold;
+line-height: 30px;
+font-size: 14px;
+background: #1D3557;
+box-shadow: 0px 1px 7px rgba(0, 0, 0, 0.25);
+border-radius: 50px;}
+
+
+
+.w3-image{
+	width:100%;
+	opacity: 0.3;
+	max-height:100%;
+
+}
+.lay{
+	background-color: rgba(29, 53, 87, 0.83);
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height:90.5%;
+    
+   
+}
+
+.form1{
+	margin-top:10px;
+    background: #F1FAEE;
+box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.25);
+border-radius: 7px;
+height: 510px;
+width:535px;
+}
+
+h1{
+	position: absolute;
+	color: #E63946;
+	font-family:PTSans;
+font-weight: normal;
+line-height: normal;
+font-size: 30px;
+margin-top: 1em;
+width:80%;
+margin-left: 1.5%;
+
+
+}
+
+h2{
+position:absolute;
+font-family: PT Sans;
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: 14px;
+color: #1D3557;
+margin-top: 5em;
+text-align: center;
+margin-left: 37%;
+letter-spacing: 1px;
+}
+
+.fullname{
+	background: #F1FAEE;
+	margin-top: 115px;
+	margin-left:100px;
+	padding: 12px 20px;
+	padding: 8px;
+    display: block;
+    border: none;
+    border-bottom:1px solid #828282;
+    width: 61%;
+    font-family: PT Sans;
+line-height: 1.5;
+font-size: 16px;
+color: #1D3557;
+font-weight: lighter;
+text-align: center;
+}
+
+
+.name{
+ position:absolute;
+  margin-top:-30px;
+ margin-left: -164px;
+ height: 15px;
+width:17px;
+
+}
+
+.email{
+	 
+	 background: #F1FAEE;
+     margin-top: 1.5em;
+     margin-bottom:2em;
+     margin-left: 100px;
+     padding: 12px 20px;
+         padding: 8px;
+    display: block;
+    border: none;
+    border-bottom: 1px solid #828282;
+    border-bottom margin:10px;
+    width: 61%;
+    line-height:1.5;
+    font-family: PT Sans;
+line-height: 1.4;
+font-size: 16px;
+color: #BDBDBD;
+text-align: center;
+}
+
+.mail{
+position:absolute;
+margin-top:-62px;
+margin-left:-164px;
+height: 15px;
+width:17px;
+}
+
+
+
+.password{
+	margin-top:-10px;
+	background: #F1FAEE;
+	margin-left:100px;
+	padding: 12px 20px;
+	padding: 8px;
+    display: block;
+    border: none;
+    border-bottom:1px solid #828282;
+    width: 61%;
+    font-style: normal;
+    font-family: PT Sans;
+font-weight: normal;
+line-height: 1.5;
+font-size: 16px;
+color: #BDBDBD;
+text-align: center;
+
+}
+
+.key{
+position:absolute;
+margin-top:-31px;
+margin-left:-160px;
+height: 17px;
+width:10px;
+}
+
+
+
+.sign{
+	margin-top: 90px;
+	text-decoration-color: #FFFFFF;
+	position: absolute;
+width: 160px;
+height:37px;
+font-family: PT Sans;
+font-style: normal;
+font-weight: bold;
+line-height: 25px;
+font-size: 14px;
+box-shadow: 0px 1px 7px rgba(0, 0, 0, 0.25);
+border-radius: 70px;
+background-color: #1D3557;
+color: #FFFFFF;
+
+}
+
+hr{
+	
+width:85px;
+border-color:#828282;
+float-left:10px;
+margin-top: 95px;
+margin-left:165px;}
+
+.lines{
+	margin-top:-1px;
+}
+
+.right{
+
+width:85px;
+float:right;
+border-color:#828282;
+margin-top:-20px;
+margin-right:165px;
+
+}
+
+.left{
+	position: center;
+	text-align: center;
+	margin-top: -29px;
+	margin-left:1px;
+margin-bottom:10px;
+	font-family: Circular;
+line-height: normal;
+font-size: 15px;
+text-align: center;
+color: #B8B8B8;
+}
+
+.file{
+	display:inline-block;
+    margin-left:40%;
+    height:-1px;
+    color: #1D3557;
+    
+}
+
+.media{
+	font-size:18px;
+ color:#1D3557;
+margin:0 auto;
+width:50%;
+height:10%;
+
+}
+
+.media a i{
+	text-align: center;
+	color:#1D3557;
+	width:5px;
+margin-top:10px;
+margin-left:-4px;
+}
+
+
+.media a{
+	text-decoration: none;
+	padding:6px 15px;
+	border:1px solid #1D3557;
+	border-radius: 53%;
+	margin:13px;
+}
+
+h3{
+ margin-top:-1px;
+	font-family: PT Sans;
+font-size: 18px;
+letter-spacing: 0.3px;
+
+}
+.color{
+	text-decoration: none;
+	color:lightblue;
+}
