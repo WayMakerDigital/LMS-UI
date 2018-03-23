@@ -1,81 +1,83 @@
 <!DOCTYPE html>
 <html>
 <head>
-	  <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit= no">
-     <title> Login page </title>
-     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-     <link rel="stylesheet" href="css/style.css">
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit= no">
+<title> Login page </title>
+<link href="library/w3.css" type="text/css" rel="stylesheet"/>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
 
-<!-- Top bar -->
-<div class= " nav w3-container  w3-mobile w3-row w3-white w3-padding w3-text-black">
-     <span class="catalogue"> <input type="image" src="img/cata.png" class="bar"> Catalogue </input></span>
-        <span class="home"> <input type="image" src="img/home.png" class="bar"> Home </input></span>
-       <span class="about"> <input type="image" src="img/about.png" class="bar"> About </input></span>
-        <span class="contact"> <input type="image" src="img/contact.png" class="bar"> Contact Us</input></span>
-        <button class="signup w3-btn w3-padding-small w3-text-white  w3-mobile w3-round-xxlarge">SIGN UP</button>
-</div>
-
+	<header class="w3-container w3-white">
+    	<div class="w3-padding-24 w3-quarter w3-bar">	
+        		<a href="#" class="w3-bar-item w3-right w3-mobile"> <i class="fa fa-clipboard-list"></i> Catalogue</a>
+        </div>
+    	<div class="w3-padding-24 w3-half w3-bar">
+        	<div class="w3-right">
+    			<a href="#" class="w3-bar-item w3-mobile"><i class="fa fa-home"></i> Home</a>
+    			<a href="#" class="w3-bar-item w3-mobile"><i class="fa fa-address-card"></i> About Us</a>
+    			<a href="#" class="w3-bar-item w3-mobile"><i class="fa fa-address-book"></i> Contact Us</a>
+    			
+            </div>
+        </div>
+        <div class="w3-quarter w3-bar w3-padding-24">
+        	<a href="#" class="w3-bar-item w3-mobile signup w3-right">Sign Up</a>
+        </div>
+    </header>
 
 
 <!--background image-->
 
-<div class=" lay  w3-mobile">
-	<img src="img/brand.png " class="w3-image w3-center">
-	 </div>
+<section class="login-canvass w-container">
+	<img src="images/bg-login-overlay.png" />
+    <div class="wrapper">
+  		<div class="w3-card w3-center w3-mobile">
+			<h1 class="w3-text-red w3-mobile">Welcome Back!</h1>
+			<h6 class="w3-mobile"> Please fill in your details </h6>
+    		<form action="/action_page.php" class="w3-mobile">
+  				<input class="email w3-input w3-mobile"  type="text"  placeholder="Enter Email Address">
+				<input class="password w3-input w3-mobile" type= "Password" placeholder="Enter Password">
+    			<p class="w3-half"><input type= "checkbox" /> Remember Me</p>
+    			<p class="w3-half"><a href="#">Forgot Password?</a></p> 
+    			<input class="signup w3-mobile w3-btn w3-round-xlarge w3-mobile" type="submit" value="SIGN IN">
+            
+    		</form>
+    		<div class="line">
+            	<hr class="w3-third">
+                <p class="w3-third"> OR </p>
+                <hr class="w3-third">
+            </div>
 
-  <div class= "form1  w3-mobile w3-display-middle w3-hover-shadow w3-padding-16 w3-center">
-<h1>Welcome Back!</h1>
-		<h2> Please fill in your details </h2>
 
-    <form action="/action_page.php">
-  
+<ul class="w3-bar">
+        <li  class="w3-bar-item">  
+        	<a href="#">
+          			<img src="images/login-google.png" />
+        	</a>
+        </li>
+        <li class="w3-bar-item">
+        	<a href="#">
+                   <img src="images/login-twitter.png" />
+        	</a>
+        </li>
+       <li class="w3-bar-item">
+        	<a href="#">
+                    <img src="images/login-fb.png" />
+        	</a>
+       </li>
+        <li class="w3-bar-item">
+        	<a href="#">
+                    <img src="images/login-in.png" />
+          	</a>
+		</li>
+    </ul>
 
-   <input class=" w3-hover-shadow email"  type="text"  placeholder="      Enter Email Address">
-<input class="mail" src="img/email.png" type="image">
-
- <input class=" w3-hover-shadow password" type= "Password" placeholder="      Enter Password">
- <input class="key" src="img/key.png" type="image">
-  
-
-
-    <label for="Remember me"><input type= "checkbox" class="me"> <b>Remember Me</b> </input></label>
-    
-    <p class="forgot"><b>Forgot Password?</b></p> 
-  
-    <button class="signin  w3-mobile w3-btn w3-round-xxlarge w3-display-middle" type="submit"><b>SIGN IN</b></button>
-    </form>
-
-<div class="lines">
-    <hr><p class="left"> OR </p> 
-    <hr class=right>
 </div>
-     <div class="media w3-row  w3-mobile w3-section social w3-padding-16">
-          <a href="#">
-          <i class="fa fa-google"></i>
-        </a>
-        <a href="#">
-                   <i class="fa fa-twitter"></i>
-        </a>
-        <a href="#">
-                    <i class="fa fa-facebook-f"></i>
-        </a>
-        <a href="#">
-                    <i class="fa fa-linkedin"></i>
-          </a>
-
-   
-    </div>
-       </div>
-     
-      <footer class="w3-section w3-display-bottommiddle w3-tiny w3-text-white w3-container">
-  <h3>Dont have an account yet? Signup</h3>
-</footer>
-
+<p class="w3-text-white w3-mobile">Dont have an account yet? <a href="#">Signup</a></p>
+</div>
+</section>
 </body>
-
 </html>
