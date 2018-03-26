@@ -1,0 +1,266 @@
+body {
+	font-family: 'PT Sans', sans-serif;
+}
+
+nav {
+	background: #1D3557;
+	height: 60px;
+	border-radius: 0!important;
+		
+}
+.navigation, .navbar-right {
+	margin-top: 6px;
+	margin-right: 60px;
+}
+@media screen and (max-width: 768px) {
+	nav {
+		height: auto!important;
+	}
+}
+.navbar>.container .navbar-brand, 
+.navbar>.container-fluid, .navbar-brand, 
+.navbar-nav>li>a {
+	font-size: 20px;
+	color:#FFFFFF;
+}
+.navbar-brand {
+	margin-top: 10px;
+	position: absolute;
+	left: 25%;
+}
+.navbar-nav>li>a:hover {
+	color: #1D3557;
+	background: #fff;
+}
+.navigation {
+	position: absolute;
+	left: 47%;
+}
+.navbar-toggle {
+	background-color: #fff;
+}
+.navbar-toggle .icon-bar {
+	background-color: #1D3557;
+}
+.navbar-brand>img {
+	display: inline;
+}
+#home-icon {
+	margin-top: -5px;
+}
+
+#contact-icon {
+	margin-top: -3px
+}
+#signup {
+	background: #FFFFFF;
+	box-shadow: 0px 1px 7px rgba(0, 0, 0, 0.25);
+	border-radius: 50px;
+	font-size: 18px;
+	color: #1D3557;
+	border-color: #1D3557;
+	width: 145px;
+	height: 40px;
+	margin-top: 7px;
+	padding-top: 7px;
+	margin-right: -60px;
+}
+#signup:hover {
+	background-color: #1D3557;
+	color: #fff;
+}
+#privacy {
+	border-bottom: 1px solid #E0E0E0;
+}
+.nav-tabs>li>a {
+	font-size: 20px;
+	color: #457B9D;
+	padding: 20px 0 20px 0;
+	text-align: center;
+}
+.nav-tabs>li.active>a, 
+.nav-tabs>li.active>a:hover, 
+.nav-tabs>li.active>a:focus {
+	color: #457B9D;
+	border: transparent;
+	border-bottom: 3px solid #1D3557;
+}
+#policy-tab {
+	padding-top: 60px;
+	padding-bottom: 30px;
+}
+.privacy-text {
+	font-size: 48px;
+	color: #3386B2;
+}
+.details {
+	margin-top: 30px;
+	font-size: 24px;
+	text-align: justify;
+	color: #222222;
+}
+#privacy-footer {
+	background: #FCFCFC;
+	padding-top: 40px;
+}
+.company {
+	font-size: 24px;
+	color: #333333;
+}
+.footer-components {
+	margin-top: 30px;
+	margin-bottom: 40px;
+}
+.footer-components>p>a {
+	line-height: 16px;
+	font-size: 20px;
+	color: rgba(79, 79, 79, 0.91);
+}
+#copyright-div {
+	background: #4F4F4F;
+	padding: 30px 0;
+}
+#copy {
+	font-size: 20px;
+	color: #FFFFFF;
+	margin-left: 50px;
+	margin-top: 10px;
+}
+#footer-icons>a {
+	margin-right: 10px;
+}
+#footer-icons>a>img {
+	display: inline;
+}
+#wrap {
+	position: absolute;
+	width: 414px;
+	height: 0px;
+	left: 513px;
+	top: 382px;
+	text-align: center;
+}
+
+#faq-heading{
+	padding: 20px; 
+
+}
+#faq-heading h2 {
+	text-align: center;
+	color:#E63946;
+	font-family: PT Sans; 
+	font-style: normal; 
+	font-size: 48px; 
+	line-height: 62px; 
+	align-items: left; 
+	fill: solid;
+}
+
+.accordion-buttons{
+	padding-right: 100px; 
+	padding-left: 100px;
+
+}
+#search-box{
+	margin: 0px;
+	padding: 5%;
+}
+#search-box .float-center form button{
+	margin:0px; z-index :10; position: absolute; right: 0px ; top: 0px;
+}
+
+.lineinput  {
+	border-bottom: 2px solid #457B9D;
+	border-left: transparent;
+	border-top: transparent;
+	border-right: transparent;
+	background-color: transparent;
+}
+.lineinput button {
+	margin:0px; z-index :10; position: absolute; right: 0px ; top: 0px;
+}
+
+.btn-pane{
+	background-color: #eee;
+	color: #444;
+	cursor: pointer;
+	padding:35px;
+	width: 100%;
+	text-align: left;
+	border: 1px solid #BFBFBF;
+	outline: none;
+	transition: 0.4s;
+	box-shadow: 0px 4px 4px;
+	margin: 0px;
+	font-size: 18px;
+}
+.btn-group-left .btn-pane{
+	padding-left: 15px;
+}
+.btn-pane:after {
+	content: "\f077";
+	font-family: FontAwesome;
+	position: relative;
+	right: 0px; 
+	font-size: 14px;
+	color: #4F4F4F;
+	float: right;
+}
+.active:after {
+	content: "\f078"; 
+	font-family: FontAwesome;
+}
+
+.btn-group-left .btn-pane:after {
+	content: "\f054" ; 
+	font-family: FontAwesome;
+	position: relative;
+	font-size: 15px;
+	margin:0px;
+
+}
+
+.btn-group-left .active:after {
+	content: "\f078"; 
+	font-family: FontAwesome;
+}
+
+.w3-panel {
+	padding: 0px;
+	background-color: white;
+	overflow: hidden;
+	max-height: 0;
+	transition: max-height 0.2s ease-out;
+	margin:0px;
+}
+
+.w3-panel p{
+	padding: 60px 25px 60px 24px;
+	margin : 16px;
+}
+
+.active, .btn-pane:hover {
+	background-color: #ccc;
+}
+.btn-group-left{
+	float : left;
+	width: 30%;
+	margin: 2%; 
+}
+.btn-group-right{
+	float : left;
+	width: 60%;
+	margin:2%;
+}
+
+.float-center{
+	float : right;
+	position: relative;
+	right: 50%; /* or right 50% */
+	text-align: left;
+}
+.float-center form{
+	position: relative;
+	left: 50%;
+}
+
